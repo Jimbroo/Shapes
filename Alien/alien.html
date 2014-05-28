@@ -1,0 +1,208 @@
+<html>
+
+<head>
+
+
+	
+	<Title>Ahoy !! I am the lovely alien ... :)</Title>
+
+	
+<style>
+
+	
+#half_1
+{	
+	width:200px;
+	height:200px;
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	border:solid 1px;
+	border-top-right-radius: 200px;
+	border-top-left-radius:100px;
+	border-right: none;
+	border-bottom:  none;
+}
+
+#half_2
+{		
+	width:200px;
+	height:200px;
+	
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	
+	border:solid 1px;
+	border-top-right-radius: 100px;
+	border-top-left-radius:200px;
+	border-left: none;
+	border-bottom:  none;
+}
+
+#half_3
+{			
+	width:200px;
+	height:200px;
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	
+	border:solid 1px;
+	border-bottom-left-radius: 200px;
+	border-right: none;
+	border-top: none;	
+}
+
+#half_4
+{		
+	width:200px;
+	height:200px;
+	
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
+	border:solid 1px;
+	border-bottom-right-radius: 200px;
+	border-left: none;
+	border-top: none;
+}
+
+.eye
+{
+	width:30px;
+	height:30px;
+	border:solid 1px;
+	border-radius: 30px;
+	background-color: black;
+}
+
+._small_eye
+{
+	width:13px;
+	height:12px;
+	background-color: white;
+	margin-top:5px;
+}
+
+._small_eye_left
+{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 10px;
+}
+
+._small_eye_right
+{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 10px;
+	margin-left: 20px;
+}
+			
+.left
+{
+	position: relative;
+	top:140px;
+	left:100px;
+	
+}
+
+.right
+{
+	position: relative;
+	top:140px;
+	left:50px;
+}
+
+.arc
+{		
+	width:200px;
+	height: 10px;
+	border:solid 1px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	border-top: none;
+	position: absolute;
+	top:100px;
+	left:100px;
+}
+
+
+
+#face{
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+
+.nose{
+	background-color: black;
+	width: 8px;
+	height: 25px;
+	border-radius: 100%;
+	
+	position: absolute;
+	
+	top: 55%;
+}
+
+.leftNose{
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);				
+	
+	left: 46%;
+}
+
+.rightNose{
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	-o-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);				
+	
+	right: 46%;
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+	<div id="face">
+	<div id="half_1">
+		<div class="eye left">
+			<div class="_small_eye _small_eye_left"></div>
+		</div>
+	</div>
+	
+	<div id="half_2">	
+		<div class="eye right">
+			<div class="_small_eye _small_eye_left"></div>	
+		</div>
+	</div>
+	
+	<div class="nose leftNose"></div>
+	<div class="nose rightNose"></div>
+	
+	<div id="half_3">
+		<div class="arc"></div>
+	</div>
+	
+	<div id="half_4"></div>
+	
+</div>
+	
+	
+</body>

@@ -1,0 +1,124 @@
+#hair{
+   display:block;
+   width:390px; 
+   height:100px;
+   background-color:#a00024;
+   border:10px solid #000;
+   border-radius:60% 70% 50% 50%/60% 70% 30% 40%;
+    /*rotate */
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+   /*position*/
+   position:relative;
+   top:120px;
+   left:100px;
+}
+#eye-1 {
+	
+   display:block;
+   width:226px;
+   height:280px;
+   background-color:#87a0aa;
+   border-radius:50% 50% 50% 50%/50% 50% 50% 50%;
+   border:25px solid #000000;
+   z-index:4;
+   /*rotate */
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+   /*position*/
+   position:relative;
+   left:2px;
+   top:40px;
+   
+}
+#eye-1 #eye-ball {
+   display:block;
+   width:96px; 
+   height:120px;
+   background-color:#000;
+
+   border-radius:50% 50% 50% 50%/50% 50% 50% 50%;
+   /*position*/
+   position:relative;
+   top:80px;
+   left:90px;
+}
+
+#eye-2 {
+	
+   display:block;
+   width:226px;
+   height:280px;
+   background-color:#87a0aa;
+   border-radius:50% 50% 50% 50%/50% 50% 50% 50%;
+   border:25px solid #000000;
+   z-index:2;
+   /*rotate */
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+   /*position*/
+   position:relative;
+   left:280px;
+   bottom:410px;
+   
+}
+#eye-2 #eye-ball {
+   display:block;
+   width:96px; 
+   height:120px;
+   background-color:#000;
+   border-radius:50% 50% 50% 50%/50% 50% 50% 50%;
+   /*position*/
+   position:relative;
+   top:80px;
+   left:60px;
+}
+#for-head{
+   width: 140px; 
+   height: 100px; 
+   background: #d1b9b0; 
+   /*position*/
+   position:relative;
+   border:15px solid #000;
+   bottom:220px;
+   left:200px;
+   z-index:2;
+}
+#jaw {
+   display:block;
+   width:580px; 
+   height:426px;
+   background-color:#d1b9b0;
+   border-radius:40% 40% 50% 50%/60% 60% 50% 50%;
+   border:14px solid #000000;
+   /*rotation*/
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+   /*position*/
+   z-index:1;
+   position:relative;
+   bottom:680px;
+}
+
+#mouth{
+	 height:45px;
+     width:240px;
+   	 border-radius:30px 8px 90px  80px ; 
+     -moz-border-radius: 30px 8px 90px  80px;
+     -webkit-border-radius: 30px 8px 90px  80px;
+     background:#FFF;
+	 border:7px solid #000;
+	 z-index:3;   
+	  /*rotation*/
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	  /*position*/
+	   position:relative;
+	   bottom:840px;
+	   left:140px;
+}
